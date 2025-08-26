@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Noto Serif", serif;
+}
+body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+
+}
+.Calculator{
+            border: 2px solid #fff;
+            padding: 10px;
+            width: 310px;
+            border-radius: 14px;
+            background: transparent;
+            box-shadow: 0 0 0 2px rgba(255,255,255,0.7);
+}
+.Calculator input{
+            width: 285px;
+            font-size: 28px;
+            border: none;
+            padding: 12px;
+            margin: 10px 0      ;
+            background: transparent;
+            font-size: 40px;
+            text-align: right;  
+            cursor: pointer;
+            color: #ffffff;
+}
+input::placeholder{
+            color: #fff;
+}
+button{
+            width: 55px;
+            height: 55px;
+            border: none;
+            margin: 6px;
+            border-radius: 50%;
+            background: #1f1f1f;
+            color: #fff;
+            font-size: 20px;
+            box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+
+}
+.btn:hover{
+            background:#333;
+            transition: 0.3s;
+}
+.ACbtn{
+            background: #3a3a3a;
+}
+.ACbtn:hover{
+            background: #505050;
+            transition: 0.3s;
+}
+.DELbtn{
+            background: #3a3a3a;
+}
+.DELbtn:hover{
+            background: #505050;
+            transition: 0.3s;
+}
+.perbtn{
+            background: #3a3a3a;
+}
+.perbtn:hover{
+            background: #505050;
+            transition: 0.3s;
+}
+.equalbtn{
+                background-color: #fb7c14;
+}
+.equalbtn:hover{
+                background: #ffa733;    
+                transition: 0.3s;
+}
+.plusbtn{
+                background-color: #fb7c14;
+}
+.plusbtn:hover{
+                background: #ffa733;    
+                transition: 0.3s;
+}
+.minusbtn{
+                background-color: #fb7c14;
+}
+.minusbtn:hover{
+                background: #ffa733;    
+                transition: 0.3s;
+}
+.multiplybtn{
+                background-color: #fb7c14;
+}
+.multiplybtn:hover{
+                background: #ffa733;    
+                transition: 0.3s;
+}
+.dividebtn{
+                background-color: #fb7c14;
+}
+.dividebtn:hover{
+                background: #ffa733;    
+                transition: 0.3s;
+}
